@@ -8,8 +8,8 @@
           <include name="testSearchItemUpToCheckOut"/>
           <include name="setUpClass"/>
           <include name="tearDownMethod"/>
-          <include name="tearDownClass"/>
           <include name="setUpMethod"/>
+          <include name="tearDownClass"/>
         </methods>
       </class> <!-- test.com.SearchItemUpToCheckOutTest -->
     </classes>
