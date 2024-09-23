@@ -1,0 +1,5 @@
+test\com\FAQReturnsTest.class
+test\com\SearchStoreByCityStateDirectionsTest.class
+test\com\SearchItemUpToCheckOutTest.class
+test\com\SearchItemAddToFavoritesTest.class
+test\com\SearchStoreByZipCodeTest.class
