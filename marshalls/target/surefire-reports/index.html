@@ -92,7 +92,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">5 methods,   5 passed</span>
+                    <span class="method-stats">4 methods,   4 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -109,11 +109,6 @@
                       <span>
                         <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Surefire_suite" title="test.com.FAQReturnsTest" class="method navigator-link" hash-for-method="testFAQReturns">testFAQReturns</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Surefire_suite" title="test.com.SearchItemAddToFavoritesTest" class="method navigator-link" hash-for-method="testSearchItemAddToFavorites">testSearchItemAddToFavorites</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -141,29 +136,14 @@
           <div class="suite-Surefire_suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">test.com.AddItemToFavoritesTest</span>
+              <span class="class-name">test.com.SearchStoreByCityStateDirectionsTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="testAddItemToFavorites">
-                  </a> <!-- testAddItemToFavorites -->
-                  <span class="method-name">testAddItemToFavorites</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Surefire_suite-class-passed -->
-          <div class="suite-Surefire_suite-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">test.com.SearchItemAddToFavoritesTest</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="testSearchItemAddToFavorites">
-                  </a> <!-- testSearchItemAddToFavorites -->
-                  <span class="method-name">testSearchItemAddToFavorites</span>
+                  <a name="testSearchStoreByCityStateDirections">
+                  </a> <!-- testSearchStoreByCityStateDirections -->
+                  <span class="method-name">testSearchStoreByCityStateDirections</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -201,14 +181,14 @@
           <div class="suite-Surefire_suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">test.com.SearchStoreByCityStateDirectionsTest</span>
+              <span class="class-name">test.com.AddItemToFavoritesTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="testSearchStoreByCityStateDirections">
-                  </a> <!-- testSearchStoreByCityStateDirections -->
-                  <span class="method-name">testSearchStoreByCityStateDirections</span>
+                  <a name="testAddItemToFavorites">
+                  </a> <!-- testAddItemToFavorites -->
+                  <span class="method-name">testAddItemToFavorites</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -224,7 +204,6 @@
 &lt;suite name=&quot;Surefire suite&quot; verbose=&quot;0&quot;&gt;
   &lt;test thread-count=&quot;5&quot; name=&quot;Surefire test&quot; verbose=&quot;0&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;test.com.SearchItemAddToFavoritesTest&quot;/&gt;
       &lt;class name=&quot;test.com.SearchStoreByZipCodeTest&quot;/&gt;
       &lt;class name=&quot;test.com.FAQReturnsTest&quot;/&gt;
       &lt;class name=&quot;test.com.AddItemToFavoritesTest&quot;/&gt;
@@ -242,7 +221,7 @@
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">Surefire test (5 classes)</span>
+                <span class="test-name">Surefire test (4 classes)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -268,27 +247,23 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(5);
+data.addRows(4);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'testSearchItemAddToFavorites')
-data.setCell(0, 2, 'test.com.SearchItemAddToFavoritesTest')
-data.setCell(0, 3, 23008);
+data.setCell(0, 1, 'testAddItemToFavorites')
+data.setCell(0, 2, 'test.com.AddItemToFavoritesTest')
+data.setCell(0, 3, 22445);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'testSearchStoreByCityStateDirections')
 data.setCell(1, 2, 'test.com.SearchStoreByCityStateDirectionsTest')
-data.setCell(1, 3, 22650);
+data.setCell(1, 3, 21367);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'testAddItemToFavorites')
-data.setCell(2, 2, 'test.com.AddItemToFavoritesTest')
-data.setCell(2, 3, 21097);
+data.setCell(2, 1, 'testSearchStoreByZipCode')
+data.setCell(2, 2, 'test.com.SearchStoreByZipCodeTest')
+data.setCell(2, 3, 18890);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'testSearchStoreByZipCode')
-data.setCell(3, 2, 'test.com.SearchStoreByZipCodeTest')
-data.setCell(3, 3, 19009);
-data.setCell(4, 0, 4)
-data.setCell(4, 1, 'testFAQReturns')
-data.setCell(4, 2, 'test.com.FAQReturnsTest')
-data.setCell(4, 3, 15449);
+data.setCell(3, 1, 'testFAQReturns')
+data.setCell(3, 2, 'test.com.FAQReturnsTest')
+data.setCell(3, 3, 15125);
 window.suiteTableData['Surefire_suite']= { tableData: data, tableDiv: 'times-div-Surefire_suite'}
 return data;
 }
@@ -319,7 +294,7 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">test.com.SearchItemAddToFavoritesTest</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">test.com.SearchStoreByZipCodeTest</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">setUpClass</span>
                 <span class="method-start">0 ms</span>
@@ -329,108 +304,85 @@ return data;
                 <span class="method-start">31 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">testSearchItemAddToFavorites</span>
-                <span class="method-start">2607 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">tearDownMethod</span>
-                <span class="method-start">25618 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-class after">
-                <span class="method-name">tearDownClass</span>
-                <span class="method-start">29109 ms</span>
-              </div> <!-- configuration-class after -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">test.com.SearchStoreByZipCodeTest</div> <!-- chronological-class-name -->
-              <div class="configuration-method before">
-                <span class="method-name">setUpMethod</span>
-                <span class="method-start">29111 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="configuration-class before">
-                <span class="method-name">setUpClass</span>
-                <span class="method-start">29111 ms</span>
-              </div> <!-- configuration-class before -->
-              <div class="test-method">
                 <span class="method-name">testSearchStoreByZipCode</span>
-                <span class="method-start">30932 ms</span>
+                <span class="method-start">2506 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDownMethod</span>
-                <span class="method-start">49943 ms</span>
+                <span class="method-start">21399 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-class after">
                 <span class="method-name">tearDownClass</span>
-                <span class="method-start">50138 ms</span>
+                <span class="method-start">21691 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">test.com.FAQReturnsTest</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">setUpClass</span>
-                <span class="method-start">50140 ms</span>
+                <span class="method-start">21696 ms</span>
               </div> <!-- configuration-class before -->
               <div class="configuration-method before">
                 <span class="method-name">setUpMethod</span>
-                <span class="method-start">50141 ms</span>
+                <span class="method-start">21698 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">testFAQReturns</span>
-                <span class="method-start">51792 ms</span>
+                <span class="method-start">23203 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDownMethod</span>
-                <span class="method-start">67242 ms</span>
+                <span class="method-start">38330 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-class after">
                 <span class="method-name">tearDownClass</span>
-                <span class="method-start">67459 ms</span>
+                <span class="method-start">38574 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">test.com.AddItemToFavoritesTest</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">setUpClass</span>
-                <span class="method-start">67460 ms</span>
+                <span class="method-start">38575 ms</span>
               </div> <!-- configuration-class before -->
               <div class="configuration-method before">
                 <span class="method-name">setUpMethod</span>
-                <span class="method-start">67461 ms</span>
+                <span class="method-start">38577 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">testAddItemToFavorites</span>
-                <span class="method-start">69147 ms</span>
+                <span class="method-start">40134 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDownMethod</span>
-                <span class="method-start">90244 ms</span>
+                <span class="method-start">62580 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-class after">
                 <span class="method-name">tearDownClass</span>
-                <span class="method-start">90520 ms</span>
+                <span class="method-start">62871 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">test.com.SearchStoreByCityStateDirectionsTest</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">setUpClass</span>
-                <span class="method-start">90521 ms</span>
+                <span class="method-start">62872 ms</span>
               </div> <!-- configuration-class before -->
               <div class="configuration-method before">
                 <span class="method-name">setUpMethod</span>
-                <span class="method-start">90523 ms</span>
+                <span class="method-start">62874 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">testSearchStoreByCityStateDirections</span>
-                <span class="method-start">92093 ms</span>
+                <span class="method-start">64588 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDownMethod</span>
-                <span class="method-start">114744 ms</span>
+                <span class="method-start">85956 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-class after">
                 <span class="method-name">tearDownClass</span>
-                <span class="method-start">114939 ms</span>
+                <span class="method-start">86150 ms</span>
               </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
